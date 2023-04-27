@@ -39,7 +39,7 @@ import com.google.gson.Gson;
         
        
         System.out.println(mlbTeamScheduleResponse);
-    
-    }
-    
+        
 }
+}
+    
