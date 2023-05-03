@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="teamIDHome" layoutX="190.0" layoutY="69.0" text="(Team Name Here)">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="gameDate" layoutX="89.0" layoutY="161.0" text="(Current Date)">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="firstDate" layoutX="289.0" layoutY="161.0" text="(1st Date)">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="secondDate" layoutX="474.0" layoutY="160.0" text="(2nd Date)">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="teamIDAway" layoutX="58.0" layoutY="190.0" text="(Opposing Team name)">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="firstDateOppTeam" layoutX="244.0" layoutY="190.0" text="(Opposing Team name)">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="secondDateOppTeam" layoutX="432.0" layoutY="190.0" text="(Opposing Team name)">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="gameTime" layoutX="98.0" layoutY="227.0" text="(Start Time)">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="startingTime" layoutX="283.0" layoutY="227.0" text="(Start Time)">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="startingTIme2" layoutX="471.0" layoutY="227.0" text="(Start Time)">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
