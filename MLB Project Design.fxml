@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="teamName" layoutX="190.0" layoutY="14.0" text="(Team Name Here)">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="currentDate" layoutX="45.0" layoutY="87.0" text="(Current Date)" />
+      <Label fx:id="firstDate" layoutX="202.0" layoutY="87.0" text="(1st Date)" />
+      <Label fx:id="sixthDate" layoutX="456.0" layoutY="226.0" text="(6th Date)" />
+      <Label fx:id="secondDate" layoutX="357.0" layoutY="87.0" text="(2nd Date)" />
+      <Label fx:id="thirdDate" layoutX="509.0" layoutY="87.0" text="(3rd Date)" />
+      <Label fx:id="fourthDate" layoutX="121.0" layoutY="226.0" text="(4th Date)" />
+      <Label fx:id="fifthDate" layoutX="288.0" layoutY="226.0" text="(5th Date)" />
+      <Label fx:id="currDayOppTeam" layoutX="21.0" layoutY="104.0" text="(Opposing Team name)" />
+      <Label fx:id="firstDateOppTeam" layoutX="166.0" layoutY="104.0" text="(Opposing Team name)" />
+      <Label fx:id="secondDateOppTeam" layoutX="323.0" layoutY="104.0" text="(Opposing Team name)" />
+      <Label fx:id="thirdDayOppTeam" layoutX="474.0" layoutY="104.0" text="(Opposing Team name)" />
+      <Label fx:id="fourthDayOppTeam" layoutX="84.0" layoutY="243.0" text="(Opposing Team name)" />
+      <Label fx:id="fifthDayOppTeam" layoutX="252.0" layoutY="243.0" text="(Opposing Team name)" />
+      <Label fx:id="sixthDayOppTeam" layoutX="420.0" layoutY="243.0" text="(Opposing Team name)" />
+      <Label fx:id="currDayTime" layoutX="52.0" layoutY="121.0" text="(Start Time)" />
+      <Label fx:id="firstDayTime" layoutX="198.0" layoutY="121.0" text="(Start Time)" />
+      <Label fx:id="secondDayTime" layoutX="355.0" layoutY="121.0" text="(Start Time)" />
+      <Label fx:id="thirdDayTime" layoutX="505.0" layoutY="121.0" text="(Start Time)" />
+      <Label fx:id="fourthDayTime" layoutX="115.0" layoutY="260.0" text="(Start Time)" />
+      <Label fx:id="fifthDayTime" layoutX="284.0" layoutY="260.0" text="(Start Time)" />
+      <Label fx:id="sixthDayTime" layoutX="452.0" layoutY="260.0" text="(Start Time)" />
+      <Label fx:id="currDayPitcher" layoutX="39.0" layoutY="150.0" text="(Starting Pitcher)" />
+      <Label fx:id="firstDayPitcher" layoutX="185.0" layoutY="150.0" text="(Starting Pitcher)" />
+      <Label fx:id="secondDayPitcher" layoutX="342.0" layoutY="150.0" text="(Starting Pitcher)" />
+      <Label fx:id="thirdDayPitcher" layoutX="492.0" layoutY="150.0" text="(Starting Pitcher)" />
+      <Label fx:id="fourthDayPitcher" layoutX="102.0" layoutY="293.0" text="(Starting Pitcher)" />
+      <Label fx:id="fifthDayPitcher" layoutX="270.0" layoutY="293.0" text="(Starting Pitcher)" />
+      <Label fx:id="sixthDayPitcher" layoutX="438.0" layoutY="293.0" text="(Starting Pitcher)" />
+   </children>
+</AnchorPane>
